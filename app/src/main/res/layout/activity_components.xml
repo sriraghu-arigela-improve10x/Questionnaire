@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ComponentsActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Components"
+        android:textColor="#0B0808"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/radio_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#115BC8"
+        android:inputType="textCapSentences"
+        android:text="Radio Btn"
+        android:textColor="#F4F3F3"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/checkbox_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#115BC8"
+        android:inputType="textCapSentences"
+        android:text="Check boxes"
+        android:textColor="#F4F3F3"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/components_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#115BC8"
+        android:inputType="textCapSentences"
+        android:text="Other components"
+        android:textColor="#F4F3F3"
+        android:textSize="20sp" />
+
+</LinearLayout>
